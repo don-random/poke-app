@@ -1,0 +1,45 @@
+@import '../base/settings';
+
+.card {
+    //background-color: $pure-white;
+    border: 2px solid black;
+    border-radius: $l-size;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    display: grid; 
+    margin: $l-size $l-size;
+    display:inline-grid;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: $s-size;
+    font-size: $s-size;
+    text-align: center;
+}
+
+.card__name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $l-size;
+    text-align: center;
+    color: $off-black;
+    text-transform: uppercase;
+    margin: $m-size;
+}
+
+.card__img__container {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    width: $s-logo;
+    height: $s-logo;
+    padding: $m-size;
+    margin: $s-size $s-size $l-size;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.card__img {
+    margin: $s-size;
+    padding: $s-size;
+    width: 70%;
+    height: 70%;
+    display: block;
+}

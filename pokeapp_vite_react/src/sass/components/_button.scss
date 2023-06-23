@@ -1,0 +1,19 @@
+.btn{
+    background-color: #FF9226;
+    border: 2px solid #FF9A37;
+    box-shadow: 2px 4px #FF8610;
+    border-radius: $xl-size;
+    text-align: center;
+    padding: $s-size;
+    margin: $s-size auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: $s-size;
+    color: #fff;
+}
+
+.btn__container {
+    width: 10%;
+    position:relative;
+    align-items: center;
+    margin: $m-size auto;
+}
